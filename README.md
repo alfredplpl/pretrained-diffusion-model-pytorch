@@ -2,8 +2,33 @@
 ([Japanese](README_jp.md))
 
 Pretrained diffusion model for image generation.
-TBA.
 
+# Presi
+## Environment
+OS: Ubuntu, Mac
+
+## Ready for test
+Please run the command.
+
+``` install.sh
+git clone https://github.com/alfredplpl/pretrained-diffusion-model-pytorch.git
+cd pretrained-diffusion-model-pytorch
+pip install -r requirements.txt
+```
+
+# Image generation test
+Please run the command.
+
+``` sample.sh
+python sample.py 
+```
+
+You can see a cat image at ./results/sample_0.png.
+
+![cat](sample.png)
+
+Please try the test repeatedly.
+You will be able to see another cat image.
 
 # References
 ``` ddpm.bib
