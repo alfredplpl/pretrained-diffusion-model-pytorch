@@ -3,7 +3,7 @@
 
 Pretrained diffusion model for image generation.
 
-# Presi
+# Prerequisites
 ## Environment
 OS: Ubuntu, Mac
 
