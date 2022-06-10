@@ -17,7 +17,7 @@ TBD
 pip install -r requirements.txt
 ```
 
-# テスト
+# 生成テスト
 TBD
 
 # 参考文献
