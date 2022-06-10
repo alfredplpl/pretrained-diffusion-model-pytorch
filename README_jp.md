@@ -3,8 +3,13 @@
 
 # 前提条件
 ## 実行環境
+実行の確認が取れているのは以下のとおりです。
 
-OS: Ubuntu, Mac, Windows (Git bash)
+OS: Ubuntu, Mac
+
+おそらく動く環境は以下のとおりです。
+
+OS: Windows (Git bash)
 
 ## 実行準備
 以下のコマンドを実行してください。
@@ -15,13 +20,19 @@ cd pretrained-diffusion-model-pytorch
 pip install -r requirements.txt
 ```
 
-# テスト
+#  画像生成テスト
+以下のコマンドを実行してください。
 
 ``` sample.sh
 python sample.py 
 ```
+実行した結果、resultsフォルダにsample_0.pngと書かれた画像ファイルが生成されるはずです。
+この画像は拡散モデルによって生成された猫画像になります。生成した例を以下に示します。
 
 ![cat](sample.png)
+
+CIFAR-10から選ばれた100種類の猫がランダムに生成されるはずです。
+あるいはただのノイズが出力されるかもしれません。何度も実行して遊んでみてください。
 
 # 参考文献
 
