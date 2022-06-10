@@ -3,22 +3,26 @@
 
 # 前提条件
 ## 実行環境
-最低環境は以下のとおりです。
-TBD
 
-推奨環境は以下のとおりです。
-TBD
+OS: Ubuntu, Mac, Windows (Git bash)
 
 ## 実行準備
-本リポジトリをクローンしたあと、本リポジトリをカレントディレクトリにしてください。
 以下のコマンドを実行してください。
 
 ``` install.sh
+git clone https://github.com/alfredplpl/pretrained-diffusion-model-pytorch.git
+cd pretrained-diffusion-model-pytorch
 pip install -r requirements.txt
 ```
 
-# 生成テスト
-TBD
+# テスト
+
+``` sample.sh
+python sample.py 
+```
+
+![cat](sample.png)
+>>>>>>> 4f8898e1d086ebf8be4090cfde3a569296e0a0b6
 
 # 参考文献
 
@@ -50,5 +54,13 @@ TBD
     publisher   = {PMLR},
     pdf         = {http://proceedings.mlr.press/v139/nichol21a/nichol21a.pdf},
     url         = {https://proceedings.mlr.press/v139/nichol21a.html},
+}
+```
+``` cifar.bib
+@article{CIFAR10,
+    titl        = {Learning Multiple Layers of Features from Tiny Images},
+    author      = {Alex Krizhevsky},
+    year        = {2009},
+    url         = {http://www.cs.toronto.edu/~kriz/cifar.html},
 }
 ```
