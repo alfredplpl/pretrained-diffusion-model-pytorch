@@ -22,7 +22,6 @@ python sample.py
 ```
 
 ![cat](sample.png)
->>>>>>> 4f8898e1d086ebf8be4090cfde3a569296e0a0b6
 
 # 参考文献
 
