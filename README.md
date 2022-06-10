@@ -7,6 +7,8 @@ Pretrained diffusion model for image generation.
 ## Environment
 OS: Ubuntu, Mac
 
+You must not have a computer with GPU.
+
 ## Ready for test
 Please run the command.
 
