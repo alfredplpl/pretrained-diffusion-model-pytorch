@@ -3,6 +3,8 @@
 
 Pretrained diffusion model for image generation.
 
+You can also play the code by [Google Colab](https://colab.research.google.com/drive/1T_8PvL85n7vwxDehcjpObVoGBDOlcPYr?usp=sharing).
+
 # Prerequisites
 ## Environment
 OS: Ubuntu, Mac
