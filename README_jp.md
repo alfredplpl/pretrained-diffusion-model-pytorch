@@ -1,5 +1,7 @@
 # 事前学習済み拡散モデル
 本リポジトリでは事前学習済みの拡散モデルを公開しております。本リポジトリの経緯については[ブログ](https://example.com)をご覧ください。
+本リポジトリのサンプルは[Google Colab](https://colab.research.google.com/drive/1T_8PvL85n7vwxDehcjpObVoGBDOlcPYr?usp=sharing)
+にて試すことができます。まずはそちらをやってみてもよいでしょう。
 
 # 前提条件
 ## 実行環境
