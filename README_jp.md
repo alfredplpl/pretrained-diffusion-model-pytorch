@@ -11,6 +11,8 @@ OS: Ubuntu, Mac
 
 OS: Windows (Git bash)
 
+なお、CPUで生成するため、GPUは必ずしも必要ではありません。
+
 ## 実行準備
 以下のコマンドを実行してください。
 

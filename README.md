@@ -9,6 +9,8 @@ You can also play the code by [Google Colab](https://colab.research.google.com/d
 ## Environment
 OS: Ubuntu, Mac
 
+You must not have a computer with GPU.
+
 ## Ready for test
 Please run the command.
 
