@@ -11,10 +11,11 @@ if __name__ == "__main__":
 
     diffusion = GaussianDiffusion(
         model,
-        image_size = 32,
-        timesteps = 1000,
-        loss_type = 'l1'
+        image_size=32,
+        timesteps=1000,  # number of steps
+        loss_type='l1'  # L1 or L2
     )
+
     data = torch.load("models/cat_mini.pt",map_location=torch.device('cpu'))
     diffusion.load_state_dict(data['model'])
     diffusion.eval()
