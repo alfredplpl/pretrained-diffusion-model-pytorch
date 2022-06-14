@@ -14,6 +14,12 @@ You must not have a computer with GPU.
 ## Ready for test
 Please run the command.
 
+I am sorry to forget my presentation.
+I am writing the first journal.
+So, I will send the journal soon.
+And I am researching about a part of gamification for robot remote control.
+I am going to talk about a part of gamification next meeting.
+
 ``` install.sh
 git clone https://github.com/alfredplpl/pretrained-diffusion-model-pytorch.git
 cd pretrained-diffusion-model-pytorch
